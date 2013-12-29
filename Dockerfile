@@ -17,7 +17,7 @@ RUN update-rc.d nginx defaults
 RUN mkdir /var/www
 
 # start nginx for the first time
-RUN service nginx start
+# RUN service nginx start
 
 # Expose ports
 EXPOSE 80
